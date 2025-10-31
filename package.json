@@ -1,6 +1,6 @@
 {
   "name": "embyflix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Emby client for Samsung Tizen TVs",
   "packageType": "app",
   "appName": "EmbyFlix",
@@ -26,7 +26,7 @@
     "prepare:dev": "node scripts/prepare-dev.js",
     "prepare:build": "node scripts/prepare-build.js",
     "dev": "npm run prepare:dev && vite",
-    "build": "npm run prepare:build && vue-tsc && vite build",
+    "build": "vue-tsc && vite build && npm run prepare:build",
     "preview": "vite preview"
   },
   "repository": {

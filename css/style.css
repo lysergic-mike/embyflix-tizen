@@ -136,28 +136,24 @@ h1 {
 .nav-item {
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    padding: 15px 25px;
     color: #fff;
     text-decoration: none;
     transition: all 0.3s;
     cursor: pointer;
     border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    margin: 0 20px;
 }
 
 .nav-item:hover,
 .nav-item:focus {
-    background: #0e1627;
-    border-color: #2c3ba7;
-    border-radius: 20px;
+    background: rgba(229, 9, 20, 0.1);
+    border-left-color: #e50914;
     outline: none;
 }
 
 .nav-item.active {
-    background: #0e1627;
-    border-color: #2c3ba7;
-    border-radius: 20px;
+    background: rgba(229, 9, 20, 0.2);
+    border-left-color: #e50914;
 }
 
 .nav-icon {
