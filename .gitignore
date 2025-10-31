@@ -1,0 +1,64 @@
+# Build files and artifacts
+.buildResult/
+.tizen-build/
+*.wgt
+.sign/
+.build/
+Resources/
+DemoContent/
+
+# Tizen Studio project files (not needed for TizenBrew)
+.tproject
+.project
+.sdk_delta.info
+.rds_delta
+.manifest.tmp
+config.xml
+
+# Certificates and keys
+SamsungCertificate/
+*.p12
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Development source files (we commit built files for TizenBrew)
+src/
+vite.config.ts
+tsconfig.json
+tsconfig.node.json
+
+# Keep old files for reference but don't track changes
+js/
+index.html.old
+test-local.html
+
+# Documentation files (not committed to GitHub)
+*.md
+!package.json
+
+# Helper batch scripts (optional)
+build-and-run.bat
+deploy-to-tv.bat
+connect-to-tv.bat
+diagnose-tv-connection.bat
+prepare-usb.bat
+install-to-tizenbrew.bat
+
+author-signature.xml
+signature1.xml
