@@ -1,6 +1,6 @@
 {
   "name": "embyflix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Emby client for Samsung Tizen TVs",
   "packageType": "app",
   "appName": "EmbyFlix",
@@ -49,7 +49,6 @@
   },
   "dependencies": {
     "terser": "^5.44.0",
-    "tiny-slider": "^2.9.4",
     "vue-router": "^4.0.13"
   }
 }
